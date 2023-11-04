@@ -1,3 +1,3 @@
-[submodule "assets-for-nixos-configs"]
-	path = assets-for-nixos-configs
+[submodule "assets-for-nixos-config"]
+	path = assets
 	url = git@github.com:randomScanian/assets-for-nixos-configs.git
