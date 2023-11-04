@@ -1,0 +1,13 @@
+{inputs, outputs, lib, config, pkgs, ...}: {  
+  users.users.randomscanian = {
+    hashedPassword = "$y$j9T$LN21Okj0i0Jn8LkPqS16J.$nFavuaP6YV8sJymOqMqc8Ez6eIwMorbdRilyeRhTJQ0";
+    isNormalUser = true;
+    openssh.authorizedKeys.keys = [];
+    extraGroups = ["wheel" "audio" "video" "storage" "input"];
+  };
+  home-manager.users.randomscanian = {
+    imports = [
+      ../../home-manager
+    ];
+  };
+}

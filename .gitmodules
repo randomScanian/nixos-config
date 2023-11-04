@@ -1,0 +1,4 @@
+[submodule "assets"]
+	path = assets
+	fetchRecurseSubmodules = true
+	url = git@github.com:randomScanian/assets-for-nixos-configs.git
